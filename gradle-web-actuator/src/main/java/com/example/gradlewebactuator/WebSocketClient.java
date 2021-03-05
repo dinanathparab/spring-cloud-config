@@ -49,7 +49,8 @@ public class WebSocketClient {
 
             //String url = "ws://localhost:8080/app/hello";
             //String url = "ws://localhost:8080/";
-            String url = "http://localhost:8080/ws";
+            //String url = "http://localhost:8080/ws";
+            String url = "http://ec2-15-207-85-19.ap-south-1.compute.amazonaws.com:8080/ws";
             StompSessionHandler sessionHandler = new MyStompSessionHandler();
             StompSession session = null;
             try {

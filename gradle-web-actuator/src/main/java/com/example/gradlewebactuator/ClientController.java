@@ -1,9 +1,7 @@
 package com.example.gradlewebactuator;
 
-import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.context.scope.refresh.RefreshScopeRefreshedEvent;
 import org.springframework.cloud.endpoint.event.RefreshEvent;
@@ -19,7 +17,6 @@ import javax.annotation.PostConstruct;
 @RequestMapping("app")
 @RefreshScope
 public class ClientController {
-
 
     @Value("${my.greeting}")
     private String val;

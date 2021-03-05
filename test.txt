@@ -1,1 +1,7 @@
 Spring cloud config test
+
+Links
+http://ec2-15-207-85-19.ap-south-1.compute.amazonaws.com:8080/index.html
+http://ec2-15-207-85-19.ap-south-1.compute.amazonaws.com:8888/application/default
+http://ec2-15-207-85-19.ap-south-1.compute.amazonaws.com:8380/app/greeting
+http://ec2-15-207-85-19.ap-south-1.compute.amazonaws.com:8380/actuator/refresh
